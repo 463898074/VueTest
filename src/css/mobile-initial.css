@@ -1,0 +1,121 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+button,
+input {
+	margin: 0;
+	padding: 0;
+}
+
+/* html,
+body{
+	height:100%;
+} */
+body {
+	font-family: "microsoft yahei",sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	font-size: 16px;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	vertical-align: middle;
+	border: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	-webkit-tap-highlight-color: transparent;
+}
+
+i,
+em {
+	font-style: normal;
+}
+
+b,
+strong {
+	font-weight: normal;
+}
+
+u,
+ins,
+s,
+del {
+	text-decoration: none;
+}
+
+option,
+textarea {
+	padding: 0;
+}
+
+textarea {
+	resize: none;
+	outline: none;
+}
+
+input,
+button,
+select {
+	outline: none;
+}
+
+/*input {
+	-webkit-appearance: none;
+}*/
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th,
+td {
+	padding: 0;
+}
+
+
+/*清除浮动*/
+
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
